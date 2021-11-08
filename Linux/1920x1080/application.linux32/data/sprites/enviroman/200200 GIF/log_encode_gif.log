@@ -1,0 +1,197 @@
+ffmpeg version 4.3.1-2020-11-08-essentials_build-www.gyan.dev Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 10.2.0 (Rev3, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/emilb/AppData/Local/Temp/KritaFFmpegProgress.jFURxq'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '9'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Sync/p1/Billeder/5050/200200 test/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'C:/Sync/p1/Billeder/5050/200200 test/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument 'scale=w=188:h=200[0:v];[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Sync/p1/Billeder/5050/200200 test/GIF.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/emilb/AppData/Local/Temp/KritaFFmpegProgress.jFURxq.
+[file @ 0000021aa26ae1c0] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument scale=w=188:h=200[0:v];[0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Sync/p1/Billeder/5050/200200 test/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 9.
+Successfully parsed a group of options.
+Opening an input file: C:/Sync/p1/Billeder/5050/200200 test/frame%04d.png.
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0000.png' for reading
+[file @ 0000021aa26f2dc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa26faf80] Statistics: 1735 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0001.png' for reading
+[file @ 0000021aa26f2e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa26f2fc0] Statistics: 1724 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0002.png' for reading
+[file @ 0000021aa26faf80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa26f2f80] Statistics: 1712 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0003.png' for reading
+[file @ 0000021aa26f2f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa26f4180] Statistics: 1703 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0004.png' for reading
+[file @ 0000021aa26f4180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa26f4a40] Statistics: 1678 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0005.png' for reading
+[file @ 0000021aa26f4180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa26f4a40] Statistics: 1775 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0006.png' for reading
+[file @ 0000021aa26f4a40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa2705840] Statistics: 1675 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0007.png' for reading
+[file @ 0000021aa2705840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa2706080] Statistics: 1703 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0008.png' for reading
+[file @ 0000021aa2706080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa2706940] Statistics: 1712 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0009.png' for reading
+[file @ 0000021aa2706940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa27071c0] Statistics: 1724 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0010.png' for reading
+[file @ 0000021aa27071c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa2708280] Statistics: 1735 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0011.png' for reading
+[file @ 0000021aa2708280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa2708b00] Statistics: 1724 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0012.png' for reading
+[file @ 0000021aa2708b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa27093c0] Statistics: 1712 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0013.png' for reading
+[file @ 0000021aa2708b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa27093c0] Statistics: 1703 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0014.png' for reading
+[file @ 0000021aa2708b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa27093c0] Statistics: 1678 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0015.png' for reading
+[file @ 0000021aa2708b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa27093c0] Statistics: 1775 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0016.png' for reading
+[file @ 0000021aa2708b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa27093c0] Statistics: 1672 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0017.png' for reading
+[file @ 0000021aa2708b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa27093c0] Statistics: 1703 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0018.png' for reading
+[file @ 0000021aa2708b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa27093c0] Statistics: 1712 bytes read, 0 seeks
+[image2 @ 0000021aa26ee640] Opening 'C:/Sync/p1/Billeder/5050/200200 test/frame0019.png' for reading
+[file @ 0000021aa2708b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000021aa27093c0] Statistics: 1724 bytes read, 0 seeks
+Input #0, image2, from 'C:/Sync/p1/Billeder/5050/200200 test/frame%04d.png':
+  Duration: 00:00:00.80, start: 0.000000, bitrate: N/A
+    Stream #0:0, 20, 1/25: Video: png, 1 reference frame, rgba(pc), 47x50 [SAR 3937:3937 DAR 47:50], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url C:/Sync/p1/Billeder/5050/200200 test/palette.png.
+Successfully parsed a group of options.
+Opening an input file: C:/Sync/p1/Billeder/5050/200200 test/palette.png.
+[NULL @ 0000021aa26f1e00] Opening 'C:/Sync/p1/Billeder/5050/200200 test/palette.png' for reading
+[file @ 0000021aa27093c0] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 0000021aa26f1e00] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 0000021aa26f1e00] Before avformat_find_stream_info() pos: 0 bytes read:250 seeks:0 nb_streams:1
+[png_pipe @ 0000021aa26f1e00] After avformat_find_stream_info() pos: 250 bytes read:250 seeks:0 frames:1
+Input #1, png_pipe, from 'C:/Sync/p1/Billeder/5050/200200 test/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+[Parsed_scale_0 @ 0000021aa271bf00] Setting 'w' to value '188'
+[Parsed_scale_0 @ 0000021aa271bf00] Setting 'h' to value '200'
+[Parsed_scale_0 @ 0000021aa271bf00] w:188 h:200 flags:'bilinear' interl:0
+Parsing a group of options: output url C:/Sync/p1/Billeder/5050/200200 test/GIF.gif.
+Successfully parsed a group of options.
+Opening an output file: C:/Sync/p1/Billeder/5050/200200 test/GIF.gif.
+[file @ 0000021aa2b32dc0] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> scale
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000021aa26ee640] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 13 times
+[Parsed_scale_0 @ 0000021aa27665c0] Setting 'w' to value '188'
+[Parsed_scale_0 @ 0000021aa27665c0] Setting 'h' to value '200'
+[Parsed_scale_0 @ 0000021aa27665c0] w:188 h:200 flags:'bilinear' interl:0
+[graph 0 input from stream 0:0 @ 0000021aa27669c0] Setting 'video_size' to value '47x50'
+[graph 0 input from stream 0:0 @ 0000021aa27669c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 0000021aa27669c0] Setting 'time_base' to value '1/9'
+[graph 0 input from stream 0:0 @ 0000021aa27669c0] Setting 'pixel_aspect' to value '3937/3937'
+[graph 0 input from stream 0:0 @ 0000021aa27669c0] Setting 'frame_rate' to value '9/1'
+[graph 0 input from stream 0:0 @ 0000021aa27669c0] w:47 h:50 pixfmt:rgba tb:1/9 fr:9/1 sar:3937/3937
+[graph 0 input from stream 1:0 @ 0000021aa27676c0] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 0000021aa27676c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 0000021aa27676c0] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 0000021aa27676c0] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 0000021aa27676c0] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 0000021aa27676c0] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 0000021aa27663c0] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 0000021aa27673c0] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_1 @ 0000021aa27662c0] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_1'
+[AVFilterGraph @ 0000021aa26fc200] query_formats: 6 queried, 4 merged, 1 already done, 0 delayed
+[swscaler @ 0000021aa2bc6ec0] Forcing full internal H chroma due to input having non subsampled chroma
+[Parsed_scale_0 @ 0000021aa27665c0] w:47 h:50 fmt:rgba sar:3937/3937 -> w:188 h:200 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 0000021aa2bd9180] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 0000021aa27673c0] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_1 @ 0000021aa27662c0] [framesync @ 0000021aa2b44cc8] Selected 1/225 time base
+[Parsed_paletteuse_1 @ 0000021aa27662c0] [framesync @ 0000021aa2b44cc8] Sync level 2
+Output #0, gif, to 'C:/Sync/p1/Billeder/5050/200200 test/GIF.gif':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 188x200 [SAR 1:1 DAR 47:50], 0/1, q=2-31, 200 kb/s, 9 fps, 100 tbn, 9 tbc (default)
+    Metadata:
+      encoder         : Lavc58.91.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 0000021aa2b32880] 180x192 image at pos (0;0) [area:188x200]
+[gif @ 0000021aa2b32880] 160x196 image at pos (20;4) [area:188x200]
+[gif @ 0000021aa2b32880] 156x196 image at pos (24;4) [area:188x200]
+[gif @ 0000021aa2b32880] 176x196 image at pos (4;0) [area:188x200]
+[gif @ 0000021aa2b32880] 184x196 image at pos (0;4) [area:188x200]
+[gif @ 0000021aa2b32880] 176x200 image at pos (4;0) [area:188x200]
+[gif @ 0000021aa2b32880] 156x196 image at pos (24;4) [area:188x200]
+[gif @ 0000021aa2b32880] 160x196 image at pos (20;4) [area:188x200]
+[gif @ 0000021aa2b32880] 180x192 image at pos (0;0) [area:188x200]
+[gif @ 0000021aa2b32880] 188x196 image at pos (0;4) [area:188x200]
+[gif @ 0000021aa2b32880] 180x192 image at pos (0;0) [area:188x200]
+[gif @ 0000021aa2b32880] 160x196 image at pos (20;4) [area:188x200]
+[gif @ 0000021aa2b32880] 156x196 image at pos (24;4) [area:188x200]
+[gif @ 0000021aa2b32880] 176x196 image at pos (4;0) [area:188x200]
+[gif @ 0000021aa2b32880] 184x196 image at pos (0;4) [area:188x200]
+[gif @ 0000021aa2b32880] 176x200 image at pos (4;0) [area:188x200]
+[gif @ 0000021aa2b32880] 156x196 image at pos (24;4) [area:188x200]
+[gif @ 0000021aa2b32880] 160x196 image at pos (20;4) [area:188x200]
+[gif @ 0000021aa2b32880] 180x192 image at pos (0;0) [area:188x200]
+[Parsed_paletteuse_1 @ 0000021aa27662c0] [framesync @ 0000021aa2b44cc8] Sync level 0
+[out_0_0 @ 0000021aa2766ac0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   20 fps=0.0 q=-0.0 Lsize=     111kB time=00:00:02.12 bitrate= 427.5kbits/s speed=54.8x    
+[AVIOContext @ 0000021aa26ee380] Statistics: 0 seeks, 1 writeouts
+video:111kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.017657%
+Input file #0 (C:/Sync/p1/Billeder/5050/200200 test/frame%04d.png):
+  Input stream #0:0 (video): 20 packets read (34279 bytes); 20 frames decoded; 
+  Total: 20 packets (34279 bytes) demuxed
+Input file #1 (C:/Sync/p1/Billeder/5050/200200 test/palette.png):
+  Input stream #1:0 (video): 1 packets read (250 bytes); 1 frames decoded; 
+  Total: 1 packets (250 bytes) demuxed
+Output file #0 (C:/Sync/p1/Billeder/5050/200200 test/GIF.gif):
+  Output stream #0:0 (video): 20 frames encoded; 20 packets muxed (113270 bytes); 
+  Total: 20 packets (113270 bytes) muxed
+21 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 0000021aa27016c0] Statistics: 0 seeks, 1 writeouts
+[AVIOContext @ 0000021aa2712d00] Statistics: 250 bytes read, 0 seeks
